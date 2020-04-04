@@ -3,10 +3,9 @@
 using namespace std;
 
 vector <int> leftRotation(vector <int> a, int d) {
-    // Complete this function
 
     int n = a.size();
-    int first=0;
+
     vector<int> ar(n);
     for(int i=0;i<n;i++)
     {
